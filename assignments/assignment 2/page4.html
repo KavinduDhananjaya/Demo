@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page4</title>
+    <link href="https://fonts.googleapis.com/css?family=Patua+One|Shrikhand" rel="stylesheet">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+
+<style>
+    #nav1{
+        width: 100%;
+        height: 100px;
+        background-color: midnightblue;
+
+    }
+    #nd1 ul li #d1:hover{
+        cursor: pointer;
+        width: 50px;
+
+    }
+    #nd1 ul{
+        list-style: none;
+        position: absolute;
+        right: 200px;
+    }
+
+
+    #nd1 ul li{
+        display: inline;
+        position: relative;
+        bottom: 75px;
+        left: 80%;
+        margin: 20px;
+    }
+
+    main{
+        width: 100%;
+        height: 600px;
+        background-color: lightgrey;
+
+    }
+
+    #md1 ul{
+        list-style: none;
+        text-align: left;
+        color: white;
+        cursor: pointer;
+    }
+
+    #md1 ul li{
+        display: inline;
+        margin-left: 120px;
+        font-size: 30px;
+    }
+    #md1{
+        border-radius: 10px;
+        height: 70px;
+        background-color: #060c56;
+        position: relative;
+        top: 10px;
+    }
+    #md1 ul li:hover{
+        color: red;
+    }
+    #md2{
+        width: 100%;
+        height: 500px;
+        background:linear-gradient(to top,darkgrey,lightgrey);
+        position: relative;
+        top: 20px;
+    }
+    #md2 button{
+        font-family: 'Patua One', cursive;
+        font-size: 20px;
+
+
+    }
+
+    #fd1{
+        width: 100%;
+        height: 150px;
+        background-color: rgba(6, 6, 36, 0.51);
+        position: relative;
+        top: 13px;
+
+    }
+
+    #fd1 ul{
+        list-style: none;
+    }
+
+    #fd1 ul li{
+        display: inline;
+        position: relative;
+        margin: 50px;
+        top: 70px;
+    }
+
+    #md3{
+        width: 200px;
+        height: 100px;
+        background-color: #71fffc ;
+        position: absolute;
+        top: 70px;
+        left: 50px;
+    }
+
+    #hid1{
+        display: none;
+    }
+
+    #divc1{
+        width: 500px;
+        height: 200px;
+        background-color: rgba(47,79,79,0.4);
+        margin-left: 10px;
+        font-family: 'Patua One', cursive;
+        position: absolute;
+        top: 230px;
+    }
+
+    #bt1{
+       width: 160px;
+        height: 60px;
+        background-color: #fffa12;position: absolute;
+        right: 255px;
+        top: 60px;
+        border-color: darkred
+    }
+    #bt2{
+        width: 120px;
+        height: 60px;
+        background-color: rgba(15,15,116,0.98);
+        position: absolute;
+        right: 130px;
+        top: 60px;
+        border-color: darkred;
+        color: white
+
+    }
+    #bt3{
+        width: 120px;
+        height: 60px;
+        background-color: rgb(15,15,116);
+        position: absolute;
+        right: 5px;
+        top: 60px;
+        border-color: darkred;
+        color: whitesmoke
+
+    }
+
+    #cub1{
+
+        margin-left: 10px;
+        background-color: firebrick;
+        border: none;
+        width: 180px;
+        height: 25px;
+        margin-top: 15px ;
+        position: absolute;
+        bottom: -60px;
+    }
+
+    #cub2{
+        background-color: firebrick;
+        border: none ;
+        width: 180px;
+        height: 25px;
+        position: absolute;
+        bottom: -60px;
+        left: 200px;
+    }
+
+
+
+    @media all and (min-width: 0px) and (max-width: 768px){
+
+
+        #fd1 ul li{
+            display: list-item;
+            color: black;
+            margin: 0px;
+
+        }
+        #fd1{
+            height: 200px;
+        }
+        #md1 ul li{
+            font-size: 18px;
+            margin-left: 0px;
+        }
+
+        #bt1{
+            width: 160px;
+            height:60px ;
+        }
+        #md3{
+            display: none;
+        }
+
+        #divc1{
+            width: 500px;
+            height: 210px;
+            top: 230px;
+        }
+
+
+    }
+
+
+    @media all and (min-width: 0px) and (max-width: 425px){
+        main{
+            width: 100%;
+            height: 650px;
+
+        }
+        #nav2 button{
+            background-color: midnightblue;
+            font-size: 18px;
+
+        }
+        #nav1{
+            width: 100%;
+            height: 100px;
+            background-color:midnightblue;
+
+        }
+        #md1 img{
+            display: none;
+            background-color: rgba(211, 211, 211, 0.49);
+        }
+        #md1 ul li{
+            font-size: 17px;
+            margin: 10px;
+            position: relative;
+            top: 20px;
+
+        }
+
+        #fd1 ul li{
+            display: list-item;
+            color: black;
+            margin: 5px;
+            font-size: 15px;
+
+        }
+        #fd1{
+            height: 200px;
+        }
+        #nd1 ul{
+            display: none;
+        }
+
+        #hid1{
+            display: block;
+            position: absolute;
+            top: 60px;
+            right: 30px;
+
+        }
+        #hid1 option{
+            font-size: 20px;
+            font-family: 'Shrikhand', cursive;
+        }
+
+        #divc1{
+            width: 350px;
+            height: 300px;
+            background-color: rgba(47,79,79,0.4);
+            margin-left: 10px;
+            font-family: 'Patua One', cursive;
+            position: absolute;
+            top: 200px;
+        }
+
+        #md2{
+            width: 100%;
+            height: 555px;
+            background:linear-gradient(to top,darkgrey,lightgrey);
+            position: relative;
+            top: 20px;
+        }
+
+        #bt1{
+            width: 100px;
+            height: 50px;
+
+        }
+        #bt2{
+            width: 100px;
+            height: 50px;
+
+        }
+        #bt3{
+            width: 100px;
+            height: 50px;
+
+        }
+        #but button{
+            font-size: 15px;
+        }
+        #cub1{
+
+            width: 180px;
+            height: 25px;
+            bottom: -50px;
+            left: -5px;
+        }
+
+        #cub2{
+
+            width: 150px;
+            height: 25px;
+            bottom: -50px;
+            left: 195px;
+        }
+
+    }
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+<header>
+    <nav id="nav1">
+        <img src="images/p.png" width="150">
+        <div id="nd1">
+            <ul>
+                <li><a href="page2.html"> <img src="images/home.ico" width="40"></a></li>
+                <li><img src="images/call.ico" width="40"></li>
+                <li><img src="images/about.ico" width="40"></li>
+            </ul>
+        </div>
+
+        <div id="hid1">
+            <select style="border-radius: 10px;border: none;background-color: midnightblue;color: whitesmoke">
+                <option>Home</option>
+                <option>Contact Us</option>
+                <option>About Us</option>
+            </select>
+
+        </div>
+    </nav>
+</header>
+
+<main>
+    <nav id="md1">
+        <ul style="margin-top: 0">
+            <a href="page3.html" style="text-decoration: none;color: whitesmoke"><li><img src="images/dash.ico" height="50">Dashbord</li></a>
+            <a href="page5.html" style="text-decoration: none;color: whitesmoke"><li><img src="images/it.ico" height="50">Order</li></a>
+            <a href="page8.html" style="text-decoration: none;color: whitesmoke"><li><img src="images/ss.ico" height="50">Users</li></a>
+            <li><img src="images/set.ico" height="50">Settings</li>
+
+        </ul>
+    </nav>
+
+    <div id="md2">
+
+        <h1>Customers</h1>
+
+        <div id="but">
+
+        <button  id="bt1">View All Customers</button>
+        <a href="page7.html"><button  id="bt2">Add Customer</button></a>
+        <button  id="bt3" style="">Delete Customer</button>
+
+        </div>
+
+          <div id="md3">
+              <h1 style="margin-left: 10px;font-size: 25px">Total Customers :856</h1><br><br>
+          </div>
+
+
+        <div id="divc1">
+
+            <h1 style="margin-top: 0;background-color: #1f1b99">Search Customer</h1>
+            <label>Customer Name</label>
+            <input type="text" placeholder="name">
+            <br><br>
+            <label>CID</label>
+            <input type="text" placeholder="CID">
+            <br><br>
+            <button style="margin-left: 10px">Search</button><br><br>
+            <a href="page10.html"> <button id="cub1"  >Customer History</button></a>
+            <button id="cub2" >Edit</button>
+
+        </div>
+    </div>
+
+</main>
+
+<footer>
+
+    <div id="fd1" style="position: relative">
+        <ul style="margin-top: 0;font-size: 20px;color: white" >
+            <li>Terms and Conditions</li>
+            <li>Services</li>
+            <li>Archived news</li>
+            <li>Feeds</li>
+        </ul>
+        <h1 style="position: absolute;right: 20px ;font-size:20px;top: 60%">Developed by KD</h1>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page8</title>
+    <link href="https://fonts.googleapis.com/css?family=Patua+One|Shrikhand" rel="stylesheet">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <style>
+        #nav1{
+            width: 100%;
+            height: 100px;
+            background-color: midnightblue;
+
+        }
+        #nd1 ul{
+            list-style: none;
+            position: absolute;
+            right: 200px;
+        }
+
+        #nd1 ul li{
+            display: inline;
+            position: relative;
+            bottom: 75px;
+            left: 80%;
+            margin: 20px;
+        }
+
+
+        main{
+            width: 100%;
+            height: 600px;
+            background-color: lightgrey;
+
+        }
+
+        #md1 ul{
+            list-style: none;
+            text-align: left;
+            color: white;
+        }
+
+        #md1 ul li{
+            display: inline;
+            margin-left: 120px;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        #md1{
+            border-radius: 10px;
+            height: 70px;
+            background-color: #060c56;
+            position: relative;
+            top: 10px;
+        }
+        #md1 ul li:hover{
+            color: red;
+        }
+
+        #md2{
+            width: 100%;
+            height: 600px;
+            background:linear-gradient(to top,darkgrey,lightgrey);
+            position: relative;
+            top: 20px;
+        }
+
+        #fd1{
+            width: 100%;
+            height: 150px;
+            background-color: rgba(6, 6, 36, 0.51);
+            position: relative;
+            top: 113px;
+
+        }
+
+        #fd1 ul{
+            list-style: none;
+        }
+
+        #fd1 ul li{
+            display: inline;
+            position: relative;
+            margin: 50px;
+            top: 70px;
+        }
+
+        #ua1{
+            width: 300px;
+            height: 430px;
+            background-color: rgba(24, 26, 220, 0.13);
+            border-radius: 5px;
+        }
+
+        #log{
+            cursor: pointer;
+
+        }
+
+        #btt1{
+            width: 160px;
+            height: 60px;
+            background-color: rgb(255,250,18) ;
+            position: absolute;
+            right:350px;
+            top:100px;
+            font-family: 'Patua One', cursive;
+            font-size: 20px;
+            border-color: darkred
+        }
+        #btt2{
+            width: 160px;height: 60px;background-color: #0f0f74 ;
+            position: absolute;
+            right:180px;
+            top:100px;
+            font-family: 'Patua One', cursive;
+            font-size: 20px;
+            border-color: darkred;
+            color: whitesmoke
+        }
+        #btt3{
+
+            width: 160px;
+            height: 60px;
+            background-color: #0f0f74 ;
+            position: absolute;
+            right:10px;
+            top:100px;
+            font-family: 'Patua One', cursive;
+            font-size: 20px;
+            border-color: darkred;
+            color: whitesmoke
+        }
+
+         #k1{
+            width: 250px;
+            font-family: 'Shrikhand', cursive;
+            position: absolute;
+             right: 260px;
+             top: 250px;
+
+        }
+
+        #hid1{
+            display: none;
+        }
+
+
+        @media all and (min-width: 0px) and (max-width: 768px){
+
+
+            #fd1 ul li{
+                display: list-item;
+                color: black;
+                margin: 0px;
+
+            }
+            #fd1{
+                height: 200px;
+
+
+            }
+            #md1 ul li{
+                font-size: 18px;
+                margin-left: 0px;
+            }
+
+            #fds1 h1{
+
+                font-size: 20px;
+            }
+            main{
+                height: 650px;
+            }
+            #md2{
+                height: 650px;
+            }
+            #ua1{
+                width: 250px;
+                height: 450px;
+                background-color: rgba(24, 26, 220, 0.13);
+                border-radius: 5px;
+            }
+            #btt1{
+                width: 120px;
+                height: 50px;
+                font-size: 15px;
+                right: 250px;
+
+            }
+            #btt2{
+                width: 120px;
+                height: 50px;
+                font-size: 15px;
+                right: 130px;
+
+            }
+            #btt3{
+
+                width: 120px;
+                height: 50px;
+                font-size: 15px;
+
+            }
+
+            #k1{
+                right: 100px;
+
+            }
+
+            #hid1{
+                display: none;
+            }
+        }
+
+        @media all and (min-width: 0px) and (max-width: 425px){
+            main{
+                width: 100%;
+                height: 755px;
+
+            }
+            #nav2 button{
+                background-color: midnightblue;
+                font-size: 18px;
+
+            }
+            #nav1{
+                width: 100%;
+                height: 100px;
+                background-color:midnightblue;
+
+            }
+            #md1 img{
+                display: none;
+                background-color: rgba(211, 211, 211, 0.49);
+            }
+            #md1 ul li{
+                font-size: 17px;
+                margin: 10px;
+                position: relative;
+                top: 20px;
+
+            }
+
+            #fd1 ul li{
+                display: list-item;
+                color: black;
+                margin: 5px;
+                font-size: 15px;
+
+            }
+            #fd1{
+                height: 200px;
+            }
+            #nd1 ul{
+                display: none;
+            }
+            #hid1{
+                display: block;
+                position: absolute;
+                top: 60px;
+                right: 30px;
+
+            }
+
+            #hid1 option{
+                font-size: 20px;
+                font-family: 'Shrikhand', cursive;
+            }
+
+
+            #md2{
+                width: 100%;
+                height: 760px;
+                background:linear-gradient(to top,darkgrey,lightgrey);
+                position: relative;
+                top: 20px;
+            }
+
+            #but button{
+                font-size: 15px;
+            }
+
+            #btt1{
+                width: 100px;
+                height: 50px;
+                font-size: 13px;
+                right: 250px;
+                top: 550px;
+
+            }
+            #btt2{
+                width: 100px;
+                height: 50px;
+                font-size: 13px;
+                right: 130px;
+                top: 550px;
+
+            }
+            #btt3{
+
+                width: 100px;
+                height: 50px;
+                font-size: 13px;
+                top: 550px;
+
+            }
+            #k1{
+                right: 100px;
+                top: 600px;
+
+            }
+
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+<header>
+    <nav id="nav1">
+        <img src="images/p.png" width="150">
+        <div id="nd1">
+            <ul>
+                <li><a href="page2.html"> <img src="images/home.ico" width="40"></a></li>
+                <li><img src="images/call.ico" width="40"></li>
+                <li><img src="images/about.ico" width="40"></li>
+            </ul>
+        </div>
+
+        <div id="hid1">
+            <select style="border-radius: 10px;border: none;background-color: midnightblue;color: whitesmoke">
+                <option>Home</option>
+                <option>Contact Us</option>
+                <option>About Us</option>
+            </select>
+
+        </div>
+
+    </nav>
+</header>
+
+<main>
+    <nav id="md1">
+        <ul style="margin-top: 0">
+            <a href="page3.html" style="text-decoration: none;color: whitesmoke"><li><img src="images/dash.ico" height="50">Dashbord</li></a>
+            <a href="page4.html" style="text-decoration: none;color: whitesmoke"> <li><img src="images/c.ico" height="50">Customers</li></a>
+            <a href="page5.html" style="text-decoration: none;color: whitesmoke"><li><img src="images/it.ico" height="50">Order</li></a>
+            <li><img src="images/set.ico" height="50">Settings</li>
+
+
+        </ul>
+    </nav>
+
+    <div id="md2">
+
+        <h1>Users</h1>
+
+        <article id="ua1" style="margin-left: 20px">
+            <a style="color: green;margin-left: 80px ;font-family: 'Patua One', cursive;">CONNECTED</a>
+            <div style="position: relative;left: 70px;top: 10px"><img src="images/un.jpg" width="150"></div>
+            <ul>
+                <li>Name : D.G.Kavindu Dhananjaya</li>
+                <li>UID : U00125</li>
+                <li>Age : 25 </li>
+                <li>Logging time : 8.00a.m</li>
+            </ul>
+            <button style="background-color: limegreen;font-size: 17px;margin-left: 50px">User History</button>
+            <button style="background-color: limegreen;font-size: 17px;margin-left: 20px">Edit</button><br>
+
+            <a href="index.html"><img id="log" src="images/lou.ico" width="50" style="position: relative;left: 100px;top: 30px"></a>
+        </article>
+
+         <button id="btt1">View All Users</button>
+         <button id="btt2">Add User</button>
+         <button id="btt3">Delete User</button>
+
+        <div id="k1">
+            <label style="font-size: 20px;position: absolute">Search User</label><br>
+            <input type="text" placeholder="UID">
+            <button style="position: absolute">Search</button>
+        </div>
+
+    </div>
+
+
+
+</main>
+<footer>
+
+    <div id="fd1">
+        <ul style="margin-top: 0;font-size: 20px;color: white" >
+            <li>Terms and Conditions</li>
+            <li>Services</li>
+            <li>Archived news</li>
+            <li>Feeds</li>
+        </ul>
+        <h1 style="position: absolute;right: 20px ;font-size:20px;top: 100px">Developed by KD</h1>
+
+    </div>
+
+</footer>
+
+</body>
+</html>

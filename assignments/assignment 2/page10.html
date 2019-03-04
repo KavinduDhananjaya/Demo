@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page10</title>
+    <link href="https://fonts.googleapis.com/css?family=Timmana" rel="stylesheet">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <style>
+        #nav1{
+            width: 100%;
+            height: 100px;
+            background-color: midnightblue;
+
+        }
+        #nd1 ul{
+            list-style: none;
+            position: absolute;
+            right: 200px;
+        }
+
+        #nd1 ul li{
+            display: inline;
+            position: relative;
+            bottom: 75px;
+            left: 80%;
+            margin: 20px;
+        }
+
+        main{
+            width: 100%;
+            height: 600px;
+            background-color: lightgrey;
+
+        }
+
+        #md1 ul{
+            list-style: none;
+            text-align: left;
+            color: white;
+        }
+
+        #md1 ul li{
+            display: inline;
+            margin-left: 120px;
+            font-size: 30px;
+            cursor: pointer;
+        }
+        #md1{
+            border-radius: 10px;
+            height: 70px;
+            background-color: #060c56;
+            position: relative;
+            top: 10px;
+        }
+        #md1 ul li:hover{
+            color: red;
+        }
+
+        #md2{
+            width: 100%;
+            height: 500px;
+            background:linear-gradient(to top,darkgrey,lightgrey);
+            position: relative;
+            top: 20px;
+        }
+
+
+        #fd1{
+            width: 100%;
+            height: 150px;
+            background-color: rgba(6, 6, 36, 0.51);
+
+        }
+
+        #fd1 ul{
+            list-style: none;
+        }
+
+        #fd1 ul li{
+            display: inline;
+            position: relative;
+            margin: 50px;
+            top: 70px;
+        }
+
+        #hid1{
+            display: none;
+        }
+        #tbl1{
+            font-size: 25px;
+            color: white;
+            font-family: 'Timmana', sans-serif;
+        }
+
+
+
+        @media all and (min-width: 0px) and (max-width: 768px){
+
+
+            #fd1 ul li{
+                display: list-item;
+                color: black;
+                margin: 0px;
+
+            }
+            #fd1{
+                height: 200px;
+
+
+            }
+            #md1 ul li{
+                font-size: 18px;
+                margin-left: 0px;
+            }
+
+            #fds1 h1{
+
+                font-size: 20px;
+            }
+            main{
+                height: 600px;
+            }
+            #md2{
+                height: 400px;
+            }
+            #md2 button{
+                top:50px ;
+                left: 100px;
+
+            }
+            #hid1{
+                display: none;
+            }
+
+        }
+
+        @media all and (min-width: 0px) and (max-width: 425px){
+            main{
+                width: 100%;
+                height: 650px;
+
+            }
+            #nav2 button{
+                background-color: midnightblue;
+                font-size: 18px;
+
+            }
+            #nav1{
+                width: 100%;
+                height: 100px;
+                background-color:midnightblue;
+
+            }
+            #md1 img{
+                display: none;
+                background-color: rgba(211, 211, 211, 0.49);
+            }
+            #md1 ul li{
+                font-size: 17px;
+                margin: 10px;
+                position: relative;
+                top: 20px;
+
+            }
+
+            #fd1 ul li{
+                display: list-item;
+                color: black;
+                margin: 5px;
+                font-size: 15px;
+
+            }
+            #fd1{
+                height: 200px;
+            }
+            #nd1 ul{
+                display: none;
+            }
+            #hid1{
+                display: block;
+                position: absolute;
+                top: 60px;
+                right: 30px;
+
+            }
+
+            #hid1 option{
+                font-size: 20px;
+                font-family: 'Shrikhand', cursive;
+            }
+
+
+            #md2{
+                width: 100%;
+                height: 760px;
+                background:linear-gradient(to top,darkgrey,lightgrey);
+                position: relative;
+                top: 20px;
+            }
+
+            #but button{
+                font-size: 15px;
+            }
+
+            #md2 table thead{
+                font-size: 15px;
+            }
+
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+<header>
+    <nav id="nav1">
+        <img src="images/p.png" width="150">
+        <div id="nd1">
+            <ul>
+                <li><a href="page2.html"> <img src="images/home.ico" width="40"></a></li>
+                <li><img src="images/call.ico" width="40"></li>
+                <li><img src="images/about.ico" width="40"></li>
+            </ul>
+        </div>
+
+        <div id="hid1">
+            <select style="border-radius: 10px;border: none;background-color: midnightblue;color: whitesmoke">
+                <option>Home</option>
+                <option>Contact Us</option>
+                <option>About Us</option>
+            </select>
+
+        </div>
+
+    </nav>
+</header>
+
+<main>
+    <nav id="md1">
+        <ul style="margin-top: 0">
+            <a href="page3.html" style="text-decoration: none;color: whitesmoke"><li><img src="images/dash.ico" height="50">Dashbord</li></a>
+            <a href="page5.html" style="text-decoration: none;color: whitesmoke"><li><img src="images/it.ico" height="50">Order</li></a>
+            <a href="page8.html" style="text-decoration: none;color: whitesmoke"><li><img src="images/ss.ico" height="50">Users</li></a>
+            <li><img src="images/set.ico" height="50">Settings</li>
+
+        </ul>
+    </nav>
+
+    <div id="md2">
+
+        <h1 style="color: darkred">Customer History</h1>
+
+        <div style="width: 150px;height: 80px;background-color: #71fffc;margin-left: 25px">
+           <h1 style="font-size: 25px;margin-left: 20px">Total Orders:18</h1>
+        </div><br><br>
+
+
+            <table  width="90%" border="2">
+                <thead id="tbl1">
+                <td style="background-color: dodgerblue">Order ID</td>
+                <td style="background-color: dodgerblue">Order Date</td>
+                <td style="background-color: dodgerblue">No of Ordes</td>
+                <td style="background-color: dodgerblue">No of Items</td>
+                <td style="background-color: dodgerblue">Discount</td>
+                <td style="background-color: dodgerblue">Cash</td>
+                <td style="background-color: dodgerblue">Balance</td>
+
+                </thead>
+                <tbody>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                </tbody>
+                <tbody>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                </tbody>
+                <tbody>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                </tbody>
+                <tbody>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                </tbody>
+                <tbody>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                <td height="20px"></td>
+                </tbody>
+        </table>
+
+
+    </div>
+
+
+
+</main>
+<footer>
+
+    <div id="fd1">
+        <ul style="margin-top: 0;font-size: 20px;color: white" >
+            <li>Terms and Conditions</li>
+            <li>Services</li>
+            <li>Archived news</li>
+            <li>Feeds</li>
+        </ul>
+        <h1 style="position: absolute;right: 20px ;font-size:20px;top: 800px">Developed by KD</h1>
+    </div>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page1</title>
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+
+    <style>
+
+
+        #id2{
+            width: 400px;
+            height: 580px;
+            background: linear-gradient(to top, rgba(27, 16, 250, 0.21),white);
+            position: absolute;
+            right: 20px;
+            top: 50px;
+            border-radius: 15px;
+            font-family: 'Righteous', cursive;
+            font-size: 30px;
+
+        }
+
+        #id1{
+            width: 100%;
+            height: 700px;
+            position: relative;
+
+        }
+
+        @media all and (min-width: 0px) and (max-width: 768px){
+
+            #id2{
+
+                background: linear-gradient(to top, rgba(30, 30, 30, 0.27),white);
+
+            }
+
+
+        }
+
+        @media all and (min-width: 0px) and (max-width: 425px){
+
+            #id2{
+                width: 350px;
+                height: 700px;
+                background: linear-gradient(to top, rgba(255, 37, 204, 0.13),white);
+                border-radius: 10px;
+                position: absolute;
+                top: 0;
+            }
+            #id2 label{
+                font-size: 20px;
+            }
+
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+<div id="id1">
+
+    <img id="pc1" src="images/7.jpg" height="800" width="100%" >
+    <div id="id2">
+        <hi><img src="images/p.png" width="300"> </hi>
+        <ul style="position: relative;top: 100px;font-size: 30px" >
+        <label>Username</label>
+        <input type="text"><br><br>
+        <label>UID</label>
+        <input type="text"><br><br>
+        <label>Password</label>
+        <input type="password">
+        <a href="page2.html"><button style="width: 120px;height: 30px;background-color:orangered;border: none;font-size: 17px">Sign In</button></a>
+
+
+        </ul>
+    </div>
+</div>
+
+
+</body>
+</html>
